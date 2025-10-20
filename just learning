@@ -1,0 +1,20 @@
+mood=1
+if mood:   如果情绪:
+    print('go it left')   Print （'go it left'）print('go it left') print（'go it left'）
+else:   其他:
+    print('go it right')   Print （'go it right'）print('go it right') print（'go it right'）
+
+account ='qiyue'    账户= ' qiyue '
+passward ='123456'
+
+
+print("please input account___")Print（“请输入账户___”）
+user_account = input()   User_account = input（）
+
+print('please input passward___')Print（‘请输入密码__’）
+user_passward = input()   User_passward = input（）
+
+if user_account==account and user_passward==passward:如果user_account==account, user_passward==passward：
+    print('well done!')   打印(“做得好!”)
+else:   其他:
+    print('sorry please try it again___')Print（‘对不起，请重试___’）
