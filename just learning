@@ -1,4 +1,4 @@
-mood=1
+mood=1   心情= 1
 if mood:   如果情绪:
     print('go it left')   Print （'go it left'）print('go it left') print（'go it left'）
 else:   其他:
@@ -18,3 +18,14 @@ if user_account==account and user_passward==passward:如果user_account==account
     print('well done!')   打印(“做得好!”)
 else:   其他:
     print('sorry please try it again___')Print（‘对不起，请重试___’）
+
+a=[1,2,3,4,5,6,7,8]
+for i in range(1,len(a),2):
+
+    print(a[i],end='|')
+    
+b=a[0:len(a):2]
+print(b)
+"""PS D:\pythonppp> & D:/Scripts/python.exe d:/pythonppp/p3.py
+2|4|6|8|[1, 3, 5, 7]
+PS D:\pythonppp>""" 
